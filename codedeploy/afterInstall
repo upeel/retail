@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# cp -f /var/www/html/codedeploy/sysconfig/clock /etc/sysconfig/clock
+cp -f /var/www/html/antarinbarang.com/codedeploy/sysconfig/clock /etc/sysconfig/clock
+ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+# cp -f /var/www/html/codedeploy/php.ini /etc/php.ini
+cp -f /var/www/html/antarinbarang.com/codedeploy/php.ini /etc/php.ini
+#mkdir -vp /var/www/html/storage/app/tmp/uploads
+chown -R nginx:nginx /var/www/html
+#chmod -R 755 /var/www/html
+chmod -R 777 /var/www/html
+# cp -f /var/www/html/codedeploy/nginx/default.conf /etc/nginx/conf.d/default.conf
+# cp -f /var/www/html/codedeploy/nginx/nginx.conf /etc/nginx/nginx.conf
+cp -f /var/www/html/antarinbarang.com/codedeploy/nginx/default.conf /etc/nginx/conf.d/default.conf
+cp -f /var/www/html/antarinbarang.com/codedeploy/nginx/nginx.conf /etc/nginx/nginx.conf
+
+#saya hilangkan agar frontend tidak merubah disini lagi
+# cp -f /var/www/html/antarinbarang.com/codedeploy/enveriontment/enveriontment.file /var/www/html/antarinbarang.com/.env
+CURRENTDATE=`date +"%Y-%m-%d %T"`
+echo -e "\nUPDATE_DATE='${CURRENTDATE}'" >> /var/www/html/antarinbarang.com/.env
+service nginx restart
+service php-fpm restart
+# composer install --optimize-autoloader
+# composer update

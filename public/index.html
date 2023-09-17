@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="theme-color" content="#1685c7">
+    <link data-n-head="1" rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Retail Order</title>
+    <script type="text/javascript" src="https://js.xendit.co/v1/xendit.min.js"></script>
+    <script type="text/javascript">
+      Xendit.setPublishableKey('xnd_public_development_ZfWIVa4G1POrhZ1sQgOyKVYdY4DUfmjgpfyRhX09mj39S9mf0dat2nsicCWdEpqU');
+   </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=<%= VUE_APP_GMAP_KEY %>" defer></script>
+</head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

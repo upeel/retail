@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="24.533" viewBox="0 0 26 24.533">
+  <g id="max_radius" transform="translate(1 1)">
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(5.5)">
+      <path id="Path_31093" data-name="Path 31093" d="M16.091,7.545C16.091,12.636,9.545,17,9.545,17S3,12.636,3,7.545a6.545,6.545,0,0,1,13.091,0Z" transform="translate(-3 -1)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_31094" data-name="Path 31094" d="M13.364,9.182A2.182,2.182,0,1,1,11.182,7,2.182,2.182,0,0,1,13.364,9.182Z" transform="translate(-4.636 -2.636)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <line id="Line_548" data-name="Line 548" x2="24" transform="translate(0 22.533)" fill="none" stroke="#272727" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

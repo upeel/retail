@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="200" viewBox="0 0 375 200">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.509" cy="0.933" r="1.571" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6ffd9"/>
+      <stop offset="1" stop-color="#73c44f"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ebe46"/>
+      <stop offset="1" stop-color="#4cb219"/>
+    </linearGradient>
+    <filter id="Union_12" x="110" y="76.001" width="155.999" height="87" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_24792" data-name="Group 24792" transform="translate(0 -64)">
+    <rect id="google_maps" data-name="google maps" width="375" height="200" transform="translate(0 64)" fill="url(#radial-gradient)"/>
+    <g id="Group_24724" data-name="Group 24724" transform="translate(-529 -413)">
+      <g id="Group_23475" data-name="Group 23475" transform="translate(30 1.975)">
+        <rect id="Rectangle_1979" data-name="Rectangle 1979" width="128" height="73" transform="translate(623 602.025)" fill="url(#linear-gradient)"/>
+        <path id="Rectangle_1980" data-name="Rectangle 1980" d="M20,0h0A20,20,0,0,1,40,20V36a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(690 639.025)" fill="#fff"/>
+        <g transform="matrix(1, 0, 0, 1, 499, 475.03)" filter="url(#Union_12)">
+          <path id="Union_12-2" data-name="Union 12" d="M103.5,51.752h0V0H122a16,16,0,0,1,16,16V51.752a17.249,17.249,0,1,1-34.5,0Zm-34.5,0h0V0h34.5V51.752a17.249,17.249,0,1,1-34.5,0Zm-34.5,0h0V0H69V51.752a17.249,17.249,0,1,1-34.5,0Zm-34.5,0H0V16A16,16,0,0,1,16,0H34.5V51.752a17.249,17.249,0,1,1-34.5,0Z" transform="translate(119 82)" fill="#fff"/>
+        </g>
+        <g id="Group_23474" data-name="Group 23474" transform="translate(617.99 556.998)">
+          <path id="Union_9" data-name="Union 9" d="M0,52c0-.083,0-.166,0-.248H0V0H35V51.75h0c0,.083,0,.165,0,.248A17.5,17.5,0,0,1,0,52Z" transform="translate(34.008 0.028)" fill="#fff"/>
+          <path id="Union_10" data-name="Union 10" d="M0,52c0-.083,0-.166,0-.248H0V0H35V51.75h0c0,.083,0,.165,0,.248A17.5,17.5,0,0,1,0,52Z" transform="translate(69.008 0.028)" fill="#247209"/>
+          <path id="Union_11" data-name="Union 11" d="M0,52c0-.083,0-.166,0-.248H0V0H19A16,16,0,0,1,35,16V51.75h0c0,.083,0,.165,0,.248A17.5,17.5,0,0,1,0,52Z" transform="translate(103.008 0.028)" fill="#fff"/>
+          <path id="Union_8" data-name="Union 8" d="M0,52c0-.083,0-.166,0-.248H0V16A16,16,0,0,1,16,0H35V51.75h0c0,.083,0,.165,0,.248A17.5,17.5,0,0,1,0,52Z" transform="translate(0.01 0.028)" fill="#247209"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

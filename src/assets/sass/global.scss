@@ -1,0 +1,146 @@
+.font-10 {
+  font-size: 10px !important;
+}
+.font-12 {
+  font-size: 12px !important;
+}
+.font-14 {
+  font-size: 14px !important;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-18 {
+  font-size: 18px !important;
+}
+.font-20 {
+  font-size: 20px !important;
+}
+.font-22 {
+  font-size: 22px !important;
+}
+.font-24 {
+  font-size: 24px !important;
+}
+.font-32 {
+  font-size: 32px !important;
+}
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+.border-radius-10 {
+  border-radius: 10px !important;
+}
+.border-rounded{
+  border-radius: 50% !important;
+}
+.box-shadow-1 {
+  box-shadow: 0px 2px 2px #0000001A !important;
+}
+.box-shadow-null {
+  box-shadow: none !important;
+}
+.border-null {
+  border: none !important;
+}
+.pos-sticky {
+  position: sticky;
+}
+.z-index-1{
+  z-index: 1 !important;
+}
+.z-index-2{
+  z-index: 2 !important;
+}
+.pos-sticky-bottom {
+  position: sticky;
+  bottom: 0;
+  z-index: 9;
+}
+.pos-sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.p-relative {
+  position: relative !important;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.input-with-label > label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.input-with-label .v-text-field__details {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.shadow-input .v-input__slot{
+  box-shadow: 0px 2px 2px #0000001A !important;
+  border: solid 1px #EEEEEE !important;
+  margin-bottom: 4px;
+}
+.shadow-input .v-text-field__details{
+  margin-bottom: 4px !important;
+}
+.shadow-input .v-messages{
+  font-size: 11px !important;
+}
+.text-d-none{
+  text-decoration: none !important;
+}
+.grey-color-text{
+  color: #767676 !important;
+}
+.soft-black-color-text{
+  color: #767676 !important;
+}
+.app-bar-no-padding .v-toolbar__content{
+  padding: 0px 4px;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.line-height-normal{
+  line-height: normal !important;
+}
+.powered-by-olsera{
+  display: flex;
+  align-items: center;
+}
+header.v-app-bar--is-scrolled {
+  box-shadow: 0px 2px 2px #0000001a !important;
+}
+.flex-width-auto{
+  flex: 0 0 auto;
+}
+.pa-unset{
+  padding: unset !important;
+}
+.soft-shadow{
+  box-shadow: 0px 2px 2px #0000001F !important;
+}
+.letter-space-0{
+  letter-spacing: 0px !important;
+}
+.text-two-line{
+  white-space: normal !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.font-discount{
+  color: #F44336 !important;
+}

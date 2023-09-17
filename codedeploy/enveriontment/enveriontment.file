@@ -1,0 +1,4 @@
+VUE_APP_I18N_LOCALE=en
+VUE_APP_I18N_FALLBACK_LOCALE=en
+VUE_APP_BASE_API_URL=https://api.antarinbarang.com/api/admin/v1/
+VUE_APP_GMAP_KEY=AIzaSyDYTl-j2koj4EoyDLf2vimULTcNLrZ4hsk

@@ -1,0 +1,55 @@
+@media (min-width: 600px) {
+  .bottom-sheet-full{
+    height: 90%;
+    max-height: 90% !important;
+    width: 50%;
+    overflow-y: hidden !important;
+    background-color: #fff;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .bottom-sheet-full.sheet-shipping{
+    height: auto;
+    max-height: auto !important;
+    width: 50%;
+    overflow-y: hidden !important;
+    background-color: #fff;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .bottom-sheet-full.width-full{
+    height: 100%;
+    width: 100%;
+    max-height: 100% !important;
+  }
+  .detail-status-delivery{
+    width: 86px;
+  }
+
+  .text-wrap-call {
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .container-freeongkir{
+    max-height: 480px;
+    overflow: auto;
+  }
+  .menu-addcart-product{
+    display: none;
+  }
+  .status-fixed{
+    margin-right: -400px;
+    width: 400px;
+  }
+  .status-fixed.active{
+    right: 400px;
+  }
+  .btn-empty-cart {
+    min-width: 40% !important;
+  }
+}
